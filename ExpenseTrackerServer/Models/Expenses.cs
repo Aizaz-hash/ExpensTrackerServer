@@ -11,18 +11,16 @@ namespace ExpenseTrackerServer.Models
         public int Id { get; set; }
 
 
-        [Column(TypeName = "nvarchar(12)")]
-        [DisplayName("Title")]
-        [Required(ErrorMessage = "Title  is required ")]
+        [Column(TypeName = "nvarchar(50)")]
+        [Required]
         public string Title { get; set; }
 
-        [DisplayName("Amount ")]
-        [Required(ErrorMessage = "Amount is required")]
+        [Required]
         [Precision(18, 2)]
-        public string Amount { get; set; }
+        public double Amount { get; set; }
 
-        [DisplayName("Date ")]
-        [Required(ErrorMessage = "Date is required ")]
+        [Required]
+
         public DateTime Date { get; set; }
 
     }

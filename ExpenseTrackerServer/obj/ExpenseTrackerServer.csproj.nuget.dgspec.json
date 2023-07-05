@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\dotnet\\New folder\\ExpenseTrackerServer\\ExpenseTrackerServer\\ExpenseTrackerServer.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\dotnet\\ExpenseTrackerServer\\ExpenseTrackerServer\\ExpenseTrackerServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\dotnet\\New folder\\ExpenseTrackerServer\\ExpenseTrackerServer\\ExpenseTrackerServer.csproj": {
+    "C:\\Users\\Admin\\Desktop\\dotnet\\ExpenseTrackerServer\\ExpenseTrackerServer\\ExpenseTrackerServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\dotnet\\New folder\\ExpenseTrackerServer\\ExpenseTrackerServer\\ExpenseTrackerServer.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\dotnet\\ExpenseTrackerServer\\ExpenseTrackerServer\\ExpenseTrackerServer.csproj",
         "projectName": "ExpenseTrackerServer",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\dotnet\\New folder\\ExpenseTrackerServer\\ExpenseTrackerServer\\ExpenseTrackerServer.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\dotnet\\ExpenseTrackerServer\\ExpenseTrackerServer\\ExpenseTrackerServer.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\dotnet\\New folder\\ExpenseTrackerServer\\ExpenseTrackerServer\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\dotnet\\ExpenseTrackerServer\\ExpenseTrackerServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.14, )"

@@ -30,17 +30,16 @@ namespace ExpenseTrackerServer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<string>("Amount")
-                        .IsRequired()
+                    b.Property<double>("Amount")
                         .HasPrecision(18, 2)
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("float(18)");
 
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasColumnType("nvarchar(12)");
+                        .HasColumnType("nvarchar(50)");
 
                     b.HasKey("Id");
 

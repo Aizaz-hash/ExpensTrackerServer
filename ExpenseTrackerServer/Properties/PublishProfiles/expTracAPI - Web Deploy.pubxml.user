@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9YkJwkU9u0uW6XkHQIRshAAAAAACAAAAAAAQZgAAAAEAACAAAABXk9yu2o9szA9F6q9bHOq321S0Tik7Ezj4+rz7whkPYwAAAAAOgAAAAAIAACAAAAACSe/M11gjwcFa6bTeUHkBiqKIVSs5ZD2yW3pmxIFqR4AAAABRrMG9MIklyh6x4CrDsWcp5ELCe4B88twaKLQnvXOCH1W2IipEYm+21nDUHRT5fJ9QR+w1DX/otk0DBs5sNgv2pj7eCtTjhjVk8wVVMo5PUsQRi8L0nlSEcRfuMwnEc678x/gaxVFA0lLPlCIqubsGm6jtbvS7G/153MZHUzTl5UAAAAAzvXNGLLqdqiyP1/490PERfTXgh4yYNQYlubpgEtYjfCky4glpri+cbHMAXuXshkG3qwfeg5aElQ8yarjDZ/GG</EncryptedPassword>
+    <History>True|2023-07-05T13:03:16.1950862Z;True|2023-07-05T03:09:58.8965313+05:00;True|2023-07-05T01:18:00.8493457+05:00;True|2023-07-05T01:14:39.4199572+05:00;True|2023-07-05T01:12:50.5543576+05:00;True|2023-07-05T01:12:20.8879771+05:00;True|2023-07-05T01:11:06.6242980+05:00;True|2023-07-05T00:54:52.9320342+05:00;True|2023-07-05T00:49:48.0573977+05:00;True|2023-07-05T00:01:02.5819128+05:00;True|2023-07-04T23:51:03.3666932+05:00;True|2023-07-04T23:44:22.1492096+05:00;True|2023-07-04T23:36:55.6226962+05:00;True|2023-07-04T23:34:05.2430636+05:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="ExpenseTrackerServer.Data.ExpenseTrackerDbContext">
+      <Value>Data Source=tcp:expensetrackerserverdbserver.database.windows.net,1433%3bInitial Catalog=ExpenseTrackerServer_db%3bUser Id=aizazzaheen%40expensetrackerserverdbserver%3bPassword=Aizaz333%40</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

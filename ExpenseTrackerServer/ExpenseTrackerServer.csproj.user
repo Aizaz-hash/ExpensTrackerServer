@@ -3,5 +3,10 @@
   <PropertyGroup>
     <Controller_SelectedScaffolderID>ApiControllerWithActionsScaffolder</Controller_SelectedScaffolderID>
     <Controller_SelectedScaffolderCategoryPath>root/Common/Api</Controller_SelectedScaffolderCategoryPath>
+    <NameOfLastUsedPublishProfile>C:\Users\Admin\Desktop\dotnet\ExpenseTrackerServer\ExpenseTrackerServer\Properties\PublishProfiles\expTracAPI - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <ActiveDebugProfile>ExpenseTrackerServer</ActiveDebugProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>

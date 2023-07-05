@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="expTracAPI" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Admin\\Desktop\\dotnet\\ExpenseTrackerServer\\ExpenseTrackerServer\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="ExpenseTrackerServer.Data.ExpenseTrackerDbContext" description="" value="Data Source=tcp:expensetrackerserverdbserver.database.windows.net,1433;Initial Catalog=ExpenseTrackerServer_db;User Id=aizazzaheen@expensetrackerserverdbserver;Password=Aizaz333@" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\Admin\\Desktop\\dotnet\\ExpenseTrackerServer\\ExpenseTrackerServer\\obj\\Release\\net6\.0\\PubTmp\\EFSQLScripts\\ExpenseTrackerServer\.Data\.ExpenseTrackerDbContext\.sql$" />
+  </parameter>
+</parameters>
